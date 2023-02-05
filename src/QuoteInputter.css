@@ -1,0 +1,17 @@
+.qInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .4rem;
+    margin: 1rem 0 0;
+}
+
+.qInput button {
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color:navy;
+}
+

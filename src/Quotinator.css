@@ -1,0 +1,42 @@
+.quote-box {
+    font: 3rem 'IM Fell English SC', serif;
+    width: 40vw;
+    background-color: navy;
+    color: white;
+    padding: 3rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-box__insult {
+    text-align: center;
+}
+
+.quote-box__play {
+    font: 1.6rem 'IM Fell English SC', serif;
+}
+
+.button {
+    font: 1.2rem MedievalSharp, cursive;
+    color: navy;
+    background-color: skyblue;
+    border: none;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(135 206 235 / .8);
+}
+.button:active {
+    background-color: rgb(135 206 235 / .5);
+}
+
+@media screen and (max-width:988px) {
+    .quote-box {
+        width: 95vw;
+    }
+}
